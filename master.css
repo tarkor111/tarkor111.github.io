@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&family=Raleway:wght@500&display=swap');
+@keyframes border {
+    0% {border-radius: 0 15px 0 15px;}
+    50% {border-radius: 15px 0 15px 0}
+    0% {border-radius: 0 15px 0 15px;}
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.disclaimer {
+    display:none;
+}
+.frame {
+    width: 100%;
+    height:150vh;
+    border: none;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .frame {
+      height: 200vh;
+      
+  }
+}
+#projects {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+nav {
+    border-radius: 10px;
+}
+
+
+.main {
+
+  margin-top: 1%;
+  text-align: center;
+  margin-bottom: 1%;
+  padding:1%;
+}
+
+.fill {
+  background-color: #1E96FF;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 0 15px 0 15px;
+  animation-name: border;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+
+.fill1 {
+  background-color: #ffc31f;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 0 15px 0 15px;
+  animation-name: border;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+
+.fill2 {
+  background-color: #33ff81;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 0 15px 0 15px;
+  animation-name: border;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+ 
+}
+
+.fill3 {
+  background-color: #be33ff;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 0 15px 0 15px;
+  animation-name: border;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+.navi {
+  margin: 1%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+ 
+  
+}
+.foot {
+  text-align: center;
+  padding: 1%;
+  width: 80%;
+}
+.pad {
+  padding: 2%;
+}
+
+a {
+    font-size: 15px;
+    color: black;
+}
+img {
+    width: 10%;
+    height: auto;
+    margin-left: 1%;
+}
+
+.rotate:hover {
+ transform: rotate(15deg);
+ transition:1s;
+ 
+}
+
+
+h3 {
+    font-size: 40px;
+    
+}
+
+.rlign {
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 400px) {
+  .bg {
+    background-image: url(/images/gradientdisplay.png);
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    
+  }
+}
+
+.cb {
+    background-image: url(/images/wallpaper-mobile.png);
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+@media only screen and (min-width: 400px) {
+  .cb {
+    background-image: url(/images/trianglify.jpg);
+    background-attachment: fixed;
+  }
+}
+
+
+#contactinfo {
+    margin: 5%;
+    text-align: left;
+}
+
+.pad2 {
+    font-size: 75%;
+}
+
+.bt {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    /*background-color: #03bafc; */
+    background-color:white;
+    border-radius: 50px;
+    margin:10px;
+}
+.down {
+    margin-top: 7%;
+}
+.smallnav {
+    display: flex;
+    flex-direction: column;
+}
+.smallheading {
+    font-size:1rem;
+    margin-left:10px;
+}
+.emptydiv {
+    width:100%;
+    height:2rem;
+}
+i {
+    z-index: 1;
+    color: black;
+    font-size: 30px;
+    margin: 1%;
+}
+
+.dots {
+    width: 20px;
+    height: auto;
+    margin: 1%;
+}
+.center {
+    text-align:center;
+}
+
+.large {
+    font-size: 30px;
+}
+.margin-left {
+    margin-left:1%;
+}
+.visual {
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+    margin: 1%;
+    margin-top: 4%;
+}
+.gallery {
+    display:flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.disclaimer {
+    z-index: 0;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+}
+@media only screen and (max-width: 1000px){
+    .bignav {
+        display:none;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .smallnav {
+        display:none;
+    }
+}
+#welcome-section {
+    height:100vh;
+}
+
+.rounded {
+     border-radius: 20%;
+}
+#switchmode {
+    padding:1%;
+    color:white;
+    border:none;
+    background-color:black;
+    left:100px;
+}
+ /*@media only screen and (min-width:400px) {
+    .overlay {
+    background-color:rgba(231, 231, 231, 0.8);
+    }
+   
+}
+*/
+@media only screen and (max-width:400px) {
+   
+    .hoverborder:hover {
+    border:1px solid black;
+    transition:1s;
+    }  
+}
+        
+    
+
+.noline {
+    text-decoration:none;
+}
+.name {
+    font-weight: bold;
+}
+.align {
+    padding: auto;
+}
+ /* .scale:hover {
+    transform: scale(1.05, 1.05);
+    transition:1s;
+}
+ */
+.lang {
+    width:20px;
+    height:auto;
+}
+.bignav {
+   background-image: url(/images/navbar-wallpaper.png);
+   background-size: 100%;
+   background-position:bottom;
+   height:10%;
+  
+}
+.disclaimer {
+    display:none;
+}
+.logo-container img {
+    padding: 1%;
+    margin:1%;
+    border-radius:20%;
+background-color:black;
+width : 6rem;
+height:6rem;
+transition:1s;
+
+
+
+
+
+
+  
+ 
+}
+.logo-container {
+    display:flex;
+    flex-direction:row;
+    padding:1%;
+    
+    flex-wrap:wrap;
+    
+}
+.textbutton {
+    border:none;
+    background:none;
+}
+#info {
+    display:none;
+    transition:1s;
+    margin:1%;
+    padding:1%;
+}
+.nav-link:hover {
+    text-decoration:underline;
+    transform: scale(1.05, 1.05);
+    transform: rotate(-5deg);
+    transition:2s;
+    
+}
+.nav-link {
+    transition:2s;
+}
+.scalenav:hover {
+    transform: scale(1.05, 1.05);
+    transition:1s;
+}
+.bt:hover {
+    background-color:black;
+    transition:1s;
+    
+   
+}
+.bt:hover i {
+    background-color:white;
+    transition:1s;
+    
+   
+}
+.bt:hover a{
+    color:white;
+}
+.bt {
+    transition:1s;
+}
+.bt a {
+    transition:1s;
+}
+.bt i {
+    transition:1s;
+}
+
+#about {
+}
+.logo-container img:hover {
+    transform: scale(1.05, 1.05);
+    transition:1s;
+}
+    
+.inline {
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:center;
+    padding:1%;
+    margin:1%;
+    flex-wrap:wrap;
+}
+.inline div {
+    margin:1%;
+    padding: 1%;
+    
+}
+/* @media (max-width: 500px){
+    .inline div {
+        font-size:50%;
+        
+    }
+    i {
+        width:50%;
+        height:50%;
+    }
+    .bt {
+        transform: scale(0.5);
+    }
+}
+*/
+.hoverborder {
+    border:1px solid rgba(245, 40, 145, 0);
+}
+
+.active {
+    
+  animation: appear 1s ease-in-out;
+  transform: translateY(0) scaleY(1);
+}
+@keyframes appear {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+@media only screen and (min-width : 400px) {
+    i, p, h1, h2, h3, h4, h5, h6 {
+    color:white; 
+    }
+    .scale:hover {
+    transform: scale(1.05, 1.05);
+    transition:1s;
+    background-color:rgba(40,40,40,0.7);
+    
+}
+.scale {
+    transition:1s;
+}
+}
+
+.bt i {
+    color:black;
+}
+.navigation {
+  
+    margin:1%;
+   
+    
+    border:none;
+    color:black;
+    width:auto;
+    height:auto;
+    
+    
+    
+}
+.rotate {
+   
+    transform:rotate(0deg);
+    transition:1s;
+}
+a:visited {
+    transform:rotate(-0.5deg);
+}
+hr {
+    height:5px;
+   
+    color:gray;
+    
+}
+.whitelogo {
+    background-color:white !important
+}
+.bold {
+    font-weight:bold;
+  
+}
+.navlink {
+    transition:1s;
+    
+}
+.navlink:hover {
+    transform:rotate(90deg);
+}
+
+@media only screen and (max-width: 400px) {
+  .bg {
+    background-image: url(/images/wallpaper-mobile.png) !important
+    
+  }
+  .bg {
+      background-attachment: fixed;
+      width:100%;
+      height:100vh;
+  }
+  .bgcontrol {
+      display:none;
+      
+  }
+}
+.bgcontrol {
+    color:white;
+}
+bdo {
+    color:white;
+}
+#navbar {
+    height:100px;
+   
+}
+ .visualapp {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+   
+   
+   margin:0;
+   padding:0;
+}
