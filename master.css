@@ -307,7 +307,7 @@ i {
     height:auto;
 }
 .bignav {
-   background-image: url(/images/navbar-wallpaper.png);
+   background-image: url(navbar-wallpaper.png);
    background-size: 100%;
    background-position:bottom;
    height:10%;
