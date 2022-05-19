@@ -12,7 +12,6 @@
 4. Item 4
 5. Item 5
 6. Item 6
-..1 First sublist item
 7. Empty item
 
 * unordered list item 1
