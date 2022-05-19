@@ -45,7 +45,7 @@ function wallpaper () {
     var image1 = "url(neonwall.png)";
     var image2 = "url(gradientdisplay.png)";
     var image3 = "url(trianglify.jpg)";
-    var image4 = "url('/images/neon_cube.png')";
+    var image4 = "url(neon_cube.png)";
     var image5 = "url('https://cdna.artstation.com/p/assets/images/images/048/734/668/medium/taras-k-nuclear-submarine-improved.jpg?1650811235')";
     var image6 = "url('https://cdna.artstation.com/p/assets/images/images/040/643/348/medium/taras-k-procedural-wood-material-preview.jpg?1629462691')";
     var image7 = "url('https://cdnb.artstation.com/p/assets/images/images/040/643/359/large/taras-k-r.jpg?1629462704')";
