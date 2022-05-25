@@ -42,16 +42,16 @@ function about () {
 
 function wallpaper () {
 
-    var image1 = "url(neonwall.png)";
-    var image2 = "url(gradientdisplay.png)";
-    var image3 = "url(trianglify.jpg)";
+    var image1 = "url(wallpaper/neonwall.png)";
+    var image2 = "url(wallpaper/gradientdisplay.png)";
+    var image3 = "url(wallpaper/trianglify.jpg)";
     var image4 = "url(neon_cube.png)";
     var image5 = "url('https://cdna.artstation.com/p/assets/images/images/048/734/668/medium/taras-k-nuclear-submarine-improved.jpg?1650811235')";
     var image6 = "url('https://cdna.artstation.com/p/assets/images/images/040/643/348/medium/taras-k-procedural-wood-material-preview.jpg?1629462691')";
     var image7 = "url('https://cdnb.artstation.com/p/assets/images/images/040/643/359/large/taras-k-r.jpg?1629462704')";
-    var image8 = "url(PlexusNeo2.png)";
-    var image9 = "url(gradientdisplay3.png)";
-    var image10 = "url(gradientdisplay4.png)";
+    var image8 = "url(wallpaper/PlexusNeo2.png)";
+    var image9 = "url(wallpaper/gradientdisplay3.png)";
+    var image10 = "url(wallpaper/gradientdisplay4.png)";
     var array1 = new Array(image1, image2, image3, image4, image5, image6, image7, image8, image9, image10);
     var randomItem = array1[Math.floor(Math.random()*array1.length)];
     document.getElementById('body').style.backgroundImage = randomItem;
@@ -75,4 +75,4 @@ function collapse () {
 }
 function scale () {
 
-}s
+}

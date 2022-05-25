@@ -155,7 +155,7 @@ h3 {
 
 @media only screen and (min-width: 400px) {
   .bg {
-    background-image: url(gradientdisplay.png);
+    background-image: url(wallpaper/gradientdisplay.png);
     background-attachment: fixed;
     background-size: 100% 100vh;
 
@@ -163,13 +163,13 @@ h3 {
 }
 
 .cb {
-    background-image: url(wallpaper-mobile.png);
+    background-image: url(wallpaper/wallpaper-mobile.png);
     background-size: 100% 100vh;
     background-attachment: fixed;
 }
 @media only screen and (min-width: 400px) {
   .cb {
-    background-image: url(wallpaper-mobile.png);
+    background-image: url(wallaper/wallpaper-mobile.png);
     background-attachment: fixed;
   }
 }
@@ -307,7 +307,7 @@ i {
     height:auto;
 }
 .bignav {
-   background-image: url(navbar-wallpaper.png);
+   background-image: url(wallpaper/navbar-wallpaper.png);
    background-size: 100%;
    background-position:bottom;
    height:10%;
@@ -505,7 +505,7 @@ hr {
 
 @media only screen and (max-width: 400px) {
   .bg {
-    background-image: url(wallpaper-mobile.png) !important
+    background-image: url(wallpaper/wallpaper-mobile.png) !important
 
   }
   .bg {
