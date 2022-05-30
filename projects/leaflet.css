@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+#map {
+  height: 80vh;
+  width: auto;
+  margin: 1%;
+ }
+.main {
+  text-align: center;
+  font-family: Saira Condensed;
+  margin-top: 1rem;
+  height:100%;
+
+}
+
+
+nav {
+  margin: 1%;
+}
+
+a:hover {
+ transform: rotate(15deg);
+}
+.disclaimer {
+  display:none;
+}
