@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+h1 {
+  padding: 2%;
+  margin: 5%;
+}
+.rtx {
+  width: 80%;
+  margin-left: 2%;
+  margin-right: 0;
+  height: auto;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.radeon {
+  width: 80%;
+  margin-left: 2%;
+  height: auto;
+  margin-right: 0;
+  margin-top: 10%;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 10px;
+  padding: 5%;
+
+}
+
+
+h1 {
+  margin-left: 2%;
+
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+nav {
+  background-color: #3492eb;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 5px solid;
+  border-color: block;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  font-size: 70%;
+}
+
+a {
+  display: block;
+  float: left;
+  margin: 5%;
+  color: white;
+}
+
+nav img {
+  margin: 5%;
+}
+button {
+  margin-left: 30%;
+  margin: 5%;
+  padding: 10%
+}
+.table {
+  padding: 1%;
+  margin: 1%;
+}
+.empty {
+  height: 20px;
+  width: 100%;
+  border-bottom: 1px solid;
+
+}
+img {
+  margin: 2%;
+  padding: 2%;
+}
+* {
+
+
+}
+.form {
+  margin: 3%  ;
+}
+label textarea{
+  margin: 3%;
+  padding: 1%;
+
+}
+
+input {
+  margin: 3%;
+  padding: 1%;
+}
+.toptext {
+  margin-top: 110px;
+}
+
+.disclaimer {
+ display:none;
+}
