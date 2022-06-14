@@ -153,7 +153,7 @@ h3 {
 }
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
   .bg {
     background-image: url('../wallpaper/gradientdisplay.png');
     background-attachment: fixed;
@@ -167,7 +167,7 @@ h3 {
     background-size: 100% 100vh;
     background-attachment: fixed;
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
   .cb {
     background-image: url('../wallaper/wallpaper-mobile.png');
     background-attachment: fixed;
@@ -278,7 +278,7 @@ i {
 
 }
 */
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:500px) {
 
     .hoverborder:hover {
     border:1px solid black;
@@ -306,13 +306,7 @@ i {
     width:20px;
     height:auto;
 }
-.bignav {
-   background-image: url('../wallpaper/navbar-wallpaper.png');
-   background-size: 100%;
-   background-position:bottom;
-   height:10%;
 
-}
 .disclaimer {
     display:none;
 }
@@ -443,7 +437,7 @@ transition:1s;
   }
 }
 
-@media only screen and (min-width : 400px) {
+@media only screen and (min-width : 500px) {
     i, p, h1, h2, h3, h4, h5, h6 {
     color:white;
     }
@@ -503,7 +497,7 @@ hr {
     transform:rotate(90deg);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .bg {
     background-image: url('../wallpaper/wallpaper-mobile.png') !important
 
@@ -537,4 +531,20 @@ bdo {
 
    margin:0;
    padding:0;
+}
+.bignav {
+   background-image: url('../wallpaper/navbar-wallpaper.png');
+   background-size: 100%;
+   background-position:bottom;
+   height:10%;
+   transition: top 0.3s;
+   position: fixed !important
+   top: -50px !important
+
+
+}
+@media only screen and (max-width:500px) {
+  .bt a {
+    font-size:80% !important
+  }
 }

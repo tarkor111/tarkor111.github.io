@@ -76,3 +76,6 @@ function collapse () {
 function scale () {
 
 }
+function copymail () {
+  navigator.clipboard.writeText("tarkor111@gmail.com");
+}
