@@ -87,7 +87,7 @@ function scrollFunction() {
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
-
+}
 //  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 //    document.getElementById("navbar").style.height = "30px";
 //    document.getElementById("logo").style.fontSize = "25px";
