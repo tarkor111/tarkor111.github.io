@@ -83,11 +83,16 @@ function copymail () {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.height = "50px";
-    document.getElementById("logo").style.fontSize = "25px";
-  } else {
-    document.getElementById("navbar").style.height = "100px";
-    document.getElementById("logo").style.fontSize = "35px";
-  }
-}
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+
+//  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+//    document.getElementById("navbar").style.height = "30px";
+//    document.getElementById("logo").style.fontSize = "25px";
+//  } else {
+//    document.getElementById("navbar").style.height = "100px";
+//    document.getElementById("logo").style.fontSize = "90px 10px";
+//  }
+//}
