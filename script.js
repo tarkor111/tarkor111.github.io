@@ -87,6 +87,7 @@ function scrollFunction() {
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
+  //document.getElementsByClassName("overlay").style.backgroundColor = "rgba('40,40,40,0.7')"; 
 }
 //  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 //    document.getElementById("navbar").style.height = "30px";

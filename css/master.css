@@ -63,7 +63,7 @@ nav {
 }
 
 .fill {
-  background-color: #1E96FF;
+  background-color: #e3b834;
   padding: 1%;
   margin: 1%;
   border-radius: 0 15px 0 15px;
@@ -76,7 +76,7 @@ nav {
 
 
 .fill1 {
-  background-color: #ffc31f;
+  background-color: #319199;
   padding: 1%;
   margin: 1%;
   border-radius: 0 15px 0 15px;
@@ -87,7 +87,7 @@ nav {
 }
 
 .fill2 {
-  background-color: #33ff81;
+  background-color: #d7beba;
   padding: 1%;
   margin: 1%;
   border-radius: 0 15px 0 15px;
@@ -98,7 +98,7 @@ nav {
 }
 
 .fill3 {
-  background-color: #be33ff;
+  background-color: #f68f6d;
   padding: 1%;
   margin: 1%;
   border-radius: 0 15px 0 15px;
@@ -275,7 +275,6 @@ i {
     .overlay {
     background-color:rgba(231, 231, 231, 0.8);
     }
-
 }
 */
 @media only screen and (max-width:500px) {
@@ -408,7 +407,6 @@ transition:1s;
 /* @media (max-width: 500px){
     .inline div {
         font-size:50%;
-
     }
     i {
         width:50%;
@@ -445,6 +443,7 @@ transition:1s;
     transform: scale(1.05, 1.05);
     transition:1s;
     background-color:rgba(40,40,40,0.7);
+
 
 }
 .scale {
