@@ -7,3 +7,13 @@ TO DO:
     * https://www.typescriptlang.org/docs/handbook/modules.html
     * https://www.typescriptlang.org/docs/handbook/2/classes.html
 * Create CAT class with Meaw method / and others.
+### 22.08.2022
+WHAT WE DID:
+* Chain calls
+* array transformations (map, join, split, sort, filter)
+* lambda (arrow) function
+
+
+TO DO:
+* Complete previous homework
+* Read https://www.tutorialsteacher.com/typescript/arrow-function
