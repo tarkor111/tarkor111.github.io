@@ -14,14 +14,13 @@ export class Cat {
             console.log("frrrrrrrrrrr")
         }
     }
+
     eat(food: string) {
         if (food.toLocaleLowerCase() === "mouse") {
             console.log("Mmmm...")
         } else {
             console.log("...")
         }
-
-
     }
 }
 
