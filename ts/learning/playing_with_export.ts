@@ -1,5 +1,6 @@
 import { Kata } from "../kata/vowel_count";
 import { likes } from "../kata/who_likes_it";
+import { Cat } from "./classes/cat";
 import { Dog } from "./classes/dog";
 
 console.log(Kata.getCount("aaaaabb"))
@@ -15,3 +16,5 @@ dogA.bark("bobik")
 let dogB = new Dog("Dodge")
 dogB.bark("bobik")
 dogB.bark("dodgE")
+let CatA = new Cat()
+CatA.eat("mouse")
