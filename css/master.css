@@ -495,7 +495,14 @@ hr {
 .navlink:hover {
     transform:rotate(90deg);
 }
+@media only screen and (max-width: 500px) {
+	
+	.overlay {
+	background-color:rgba(0,0,0,0) !important
+	}
+	
 
+}
 @media only screen and (max-width: 500px) {
   .bg {
     background-image: url('../wallpaper/wallpaper-mobile.png') !important
@@ -510,6 +517,7 @@ hr {
       display:none;
 
   }
+	
 }
 .bgcontrol {
     color:white;
