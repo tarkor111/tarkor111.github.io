@@ -1,12 +1,13 @@
 import { Animal } from "./animal";
 
-export class Cat extends Animal{
+export class Cat implements Animal{
     food: string;
 
     constructor(name: string = "Cat") {
-        super(name)
+        this.name = name
         this.food = "fish";
     }
+    name: string;
 
     meauw(sound: string) {
         if (sound.toLocaleLowerCase() === this.name.toLocaleLowerCase()) {

@@ -1,10 +1,12 @@
 import { Animal } from "./animal"
 
-export class Dog extends Animal{
+export class Dog implements Animal{
+    name: string
 
     constructor(name: string = "bobik") {
-        super(name)
+        this.name = name
     }
+    
 
     bark(sound: string) {
         if (sound.toLocaleLowerCase() === this.name.toLocaleLowerCase()) {
@@ -15,7 +17,4 @@ export class Dog extends Animal{
     }
 }
 
-let dog = {
-    name: 
-}
 
