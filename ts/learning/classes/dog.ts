@@ -1,8 +1,9 @@
-export class Dog {
-    name: string;
+import { Animal } from "./animal"
+
+export class Dog extends Animal{
 
     constructor(name: string = "bobik") {
-        this.name = name;
+        super(name)
     }
 
     bark(sound: string) {
@@ -12,5 +13,9 @@ export class Dog {
             console.log("...")
         }
     }
+}
+
+let dog = {
+    name: 
 }
 

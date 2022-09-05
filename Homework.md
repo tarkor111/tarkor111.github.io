@@ -17,3 +17,19 @@ WHAT WE DID:
 TO DO:
 * Complete previous homework
 * Read https://www.tutorialsteacher.com/typescript/arrow-function
+
+### 29.08.2022
+WHAT WE DID:
+* Inheritance 
+
+TO DO:
+* Read https://www.typescripttutorial.net/typescript-tutorial/typescript-inheritance/
+* Read https://www.typescripttutorial.net/typescript-tutorial/typescript-static-methods-and-properties/
+* Read https://www.typescripttutorial.net/typescript-tutorial/typescript-interface/
+* Rewrite animal class to interface
+* Create interface animalDoctor with 1 method "cure" which accepts value ("animal") and outputs "cured [animal]"
+* Choose 1 more 6kuy kata and solve
+* Explain differences between List, Set and Map.
+* UPDATE npm and node
+* Choose Angular, React, or Vue
+* Flutter

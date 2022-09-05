@@ -1,9 +1,10 @@
-export class Cat {
-    name: string;
+import { Animal } from "./animal";
+
+export class Cat extends Animal{
     food: string;
 
     constructor(name: string = "Cat") {
-        this.name = name;
+        super(name)
         this.food = "fish";
     }
 
