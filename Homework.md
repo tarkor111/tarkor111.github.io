@@ -33,3 +33,13 @@ TO DO:
 * UPDATE npm and node
 * Choose Angular, React, or Vue
 * Flutter
+
+### 05.09.2022
+ WHAT WE DID: 
+ * Fixed Homework
+ * Started Angular
+
+ TO DO:
+ * Continue https://angular.io/tutorial/toh-pt1
+ * READ https://angular.io/guide/architecture
+ 
