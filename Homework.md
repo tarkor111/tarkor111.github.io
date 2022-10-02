@@ -42,4 +42,15 @@ TO DO:
  TO DO:
  * Continue https://angular.io/tutorial/toh-pt1
  * READ https://angular.io/guide/architecture
- 
+
+
+ ### 26.09.2022
+ WHAT WE DID:
+ * Synchronous vs Asynchronous in HTTP
+ * Browser memory (JS, Tab, Cookies)
+ TO DO:
+ * ng new weather-service -> Separate Branch
+ * Use https://material.angular.io/components/categories 
+    * Add toolbar
+    * Add sidenav with 1 item : List of countries
+    * Add router
