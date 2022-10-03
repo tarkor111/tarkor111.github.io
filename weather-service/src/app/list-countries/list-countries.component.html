@@ -1,27 +1,3 @@
 <mat-list>
-  <mat-list-item>Italy</mat-list-item>
-  <mat-list-item>Germany</mat-list-item>
-  <mat-list-item>France</mat-list-item>
-  <mat-list-item>United Kingdom</mat-list-item>
-  <mat-list-item>Belgium</mat-list-item>
-  <mat-list-item>Austria</mat-list-item>
-  <mat-list-item>Bulgaria</mat-list-item>
-  <mat-list-item>Hungary</mat-list-item>
-  <mat-list-item>Denmark</mat-list-item>
-  <mat-list-item>Greece</mat-list-item>
-  <mat-list-item>Finland</mat-list-item>
-  <mat-list-item>Spain</mat-list-item>
-  <mat-list-item>Estonia</mat-list-item>
-  <mat-list-item>Luxembourg</mat-list-item>
-  <mat-list-item>Croatia</mat-list-item>
-  <mat-list-item>Poland</mat-list-item>
-  <mat-list-item>Portugal</mat-list-item>
-  <mat-list-item>Netherlands</mat-list-item>
-  <mat-list-item>Latvia</mat-list-item>
-  <mat-list-item>Romania</mat-list-item>
-  <mat-list-item>Ireland</mat-list-item>
-  <mat-list-item>mat-list-itemthuania</mat-list-item>
-  <mat-list-item>Sweden</mat-list-item>
-  <mat-list-item>Slovenia</mat-list-item>
-  <mat-list-item>Malta</mat-list-item>
+  <mat-list-item *ngFor="let country of listOfCountries">{{country}}</mat-list-item>
 </mat-list>
