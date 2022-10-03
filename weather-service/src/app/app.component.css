@@ -1,16 +1,7 @@
-.container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #eee;
-
+.example-spacer {
+  flex: 1 1 auto;
 }
 
-mat-sidenav{
-padding:1%;
+.main-container {
+  height: 100%;
 }
-mat-sidenav-content{
-  padding:1%;
-  }
