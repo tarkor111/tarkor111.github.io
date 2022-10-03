@@ -1,32 +1,9 @@
 <mat-drawer-container class="main-container" autosize>
   <mat-drawer #drawer class="main-sidenav" mode="side">
-    <ul>
-      <li>Italy</li>
-      <li>Germany</li>
-      <li>France</li>
-      <li>United Kingdom</li>
-      <li>Belgium</li>
-      <li>Austria</li>
-      <li>Bulgaria</li>
-      <li>Hungary</li>
-      <li>Denmark</li>
-      <li>Greece</li>
-      <li>Finland</li>
-      <li>Spain</li>
-      <li>Estonia</li>
-      <li>Luxembourg</li>
-      <li>Croatia</li>
-      <li>Poland</li>
-      <li>Portugal</li>
-      <li>Netherlands</li>
-      <li>Latvia</li>
-      <li>Romania</li>
-      <li>Ireland</li>
-      <li>Lithuania</li>
-      <li>Sweden</li>
-      <li>Slovenia</li>
-      <li>Malta</li>
-    </ul>
+    <mat-selection-list [multiple]="false">
+      <mat-list-option routerLink="/" routerLinkActive="active">Home</mat-list-option>
+      <mat-list-option routerLink="/list-countries" routerLinkActive="active">List of Countries</mat-list-option>
+    </mat-selection-list>
   </mat-drawer>
   <mat-drawer-content>
     <mat-toolbar color="primary">
@@ -42,6 +19,7 @@
         <mat-icon>share</mat-icon>
       </button>
     </mat-toolbar>
-  </mat-drawer-content>
 
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
 </mat-drawer-container>
