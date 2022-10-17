@@ -65,3 +65,8 @@ TODO:
   * E.g. as in https://angular.io/guide/router-tutorial-toh#add-heroes-functionality (where it's new link)
   * Otherwise as additional functionality in existing component, via ngIf
 * Add new Menu Item -> Show Weather with Input field (Placehodlder to search address) and button (show weather)
+
+### 17/10/2022
+TO DO: 
+* Improve country-details page (Material Design)
+* Add new Menu Item -> Show Weather with Input field (Placehodlder to search address) and button (show weather)

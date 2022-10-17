@@ -1,3 +1,9 @@
-<mat-list>
-  <mat-list-item *ngFor="let country of listOfCountries">{{country}}</mat-list-item>
-</mat-list>
+<mat-selection-list [multiple]="false">
+  <a
+    *ngFor="let country of listOfCountries | keyvalue"
+    [routerLink]="['/country', country.key]"
+    ><mat-list-option
+      >{{ country.key }} - {{ country.value }}</mat-list-option
+    ></a
+  >
+</mat-selection-list>

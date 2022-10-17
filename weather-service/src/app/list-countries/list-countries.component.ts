@@ -8,15 +8,18 @@ import { ListCountriesService } from './list-countries.service';
   styleUrls: ['./list-countries.component.css']
 })
 export class ListCountriesComponent implements OnInit {
-  listOfCountries = ["Italy", "Germany", "France"]
+  listOfCountries:object = {}
 
   constructor(private listOfCountriesService: ListCountriesService) { }
 
   ngOnInit(): void {
+
     this.listOfCountriesService.getListOfCountries()
     .subscribe((data: Countries) => {
-      this.listOfCountries = Object.values(data.countries)
+
+      this.listOfCountries = data.countries
     });
   }
 
 }
+

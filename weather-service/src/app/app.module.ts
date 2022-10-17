@@ -11,12 +11,17 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ListCountriesComponent } from './list-countries/list-countries.component';
 import {MatListModule} from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http';
+import { CountryDetailsComponent } from './country-details/country-details.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    ListCountriesComponent
+    ListCountriesComponent,
+    CountryDetailsComponent,
+
   ],
   imports: [
     BrowserModule,
