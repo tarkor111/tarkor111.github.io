@@ -12,6 +12,10 @@ import { ListCountriesComponent } from './list-countries/list-countries.componen
 import {MatListModule} from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http';
 import { CountryDetailsComponent } from './country-details/country-details.component';
+import {MatCardModule} from '@angular/material/card';
+import { WeatherComponent } from './weather/weather.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -21,6 +25,7 @@ import { CountryDetailsComponent } from './country-details/country-details.compo
     HomepageComponent,
     ListCountriesComponent,
     CountryDetailsComponent,
+    WeatherComponent,
 
   ],
   imports: [
@@ -32,7 +37,12 @@ import { CountryDetailsComponent } from './country-details/country-details.compo
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    MatFormFieldModule,
+    FormsModule,
+    ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

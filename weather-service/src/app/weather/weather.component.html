@@ -1,0 +1,9 @@
+<mat-card class="weather">
+  </mat-card
+>
+
+<mat-form-field appearance="fill">
+  <mat-label>Input your location</mat-label>
+  <input matInput placeholder="Copenhagen" [formControl]="text" required />
+  <mat-error *ngIf="text.invalid">{{ getErrorMessage() }}</mat-error>
+</mat-form-field>
