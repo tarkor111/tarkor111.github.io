@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
+import { WeatherRoot } from '../models/weather/weather-root';
 import { WeatherService } from './weather.service';
 
 @Component({
@@ -9,14 +10,13 @@ import { WeatherService } from './weather.service';
 })
 export class WeatherComponent implements OnInit {
   text = new FormControl('', [Validators.required]);
-  weatherData = ''
+  weatherData: WeatherRoot | null = null
 
   constructor(private weatherService: WeatherService) {}
 
   ngOnInit(): void {}
 
   getErrorMessage() {
-    console.log('here');
     if (this.text.hasError('required')) {
       return 'You must enter a value';
     } else {
@@ -26,10 +26,9 @@ export class WeatherComponent implements OnInit {
 
   showWeather() {
   this.weatherService.getCurrentWeather(this.text.value!!)
-  .subscribe((data: string) => {
-
-    this.weatherData = data
+  .subscribe((data: WeatherRoot) => {
     console.log(data)
+    this.weatherData = data
   });
   }
 }

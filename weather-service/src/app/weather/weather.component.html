@@ -13,6 +13,8 @@
   </mat-form-field>
   <button (click) = "showWeather();" mat-raised-button color="primary">Show Weather</button>
 </mat-card>
-<mat-card>
-  {{weatherData}}
+<mat-card *ngIf="weatherData != null">
+  <!--Style it!-->
+  {{weatherData.current.condition.text}}
+  {{weatherData.current.temp_c}}
 </mat-card>

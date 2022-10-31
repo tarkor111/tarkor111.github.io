@@ -1,5 +1,6 @@
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { WeatherRoot } from '../models/weather/weather-root';
 
 @Injectable({
   providedIn: 'root',
@@ -14,7 +15,7 @@ export class WeatherService {
 
   getCurrentWeather(address: string) {
     let params = new HttpParams().set('q', address);
-    return this.http.get<string>(
+    return this.http.get<WeatherRoot>(
       'https://weatherapi-com.p.rapidapi.com/current.json',
       { params: params, headers: this.headers }
     );
