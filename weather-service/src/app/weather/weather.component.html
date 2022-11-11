@@ -14,7 +14,10 @@
   <button (click) = "showWeather();" mat-raised-button color="primary">Show Weather</button>
 </mat-card>
 <mat-card *ngIf="weatherData != null">
-  <!--Style it!-->
-  {{weatherData.current.condition.text}}
-  {{weatherData.current.temp_c}}
+<img src="{{weatherData.current.condition.icon}}" alt="">
+  <p class = "countryinfo">Current Weather: {{weatherData.current.condition.text}}</p>
+  <p class = "countryinfo">Current Temperature: {{weatherData.current.temp_c}}°</p>
+
+
+
 </mat-card>

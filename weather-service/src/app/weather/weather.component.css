@@ -5,3 +5,16 @@
 * {
   margin: 1%;
 }
+
+.countryinfo {
+  margin:1%;
+  padding:1%;
+  border: 1px solid #3F51B5;
+  border-radius: 10px;
+
+}
+.countryinfo:hover {
+  background-color: #3F51B5;
+  transition: 1s;
+  color:white;
+}
