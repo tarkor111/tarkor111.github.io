@@ -42,4 +42,31 @@ TO DO:
  TO DO:
  * Continue https://angular.io/tutorial/toh-pt1
  * READ https://angular.io/guide/architecture
- 
+
+
+ ### 26.09.2022
+ WHAT WE DID:
+ * Synchronous vs Asynchronous in HTTP
+ * Browser memory (JS, Tab, Cookies)
+ TO DO:
+ * ng new weather-service -> Separate Branch
+ * Use https://material.angular.io/components/categories 
+    * Add toolbar
+    * Add sidenav with 1 item : List of countries
+    * Add router
+
+ ### 03.10.2022
+WHAT WE DID:
+* Improved homework
+* Added first API call for List of Countries
+
+TODO:
+* Add Country Details to List Of Countries page (either as new parameterized route, or as part of existing component). API call for details: https://rapidapi.com/natkapral/api/countries-cities/ - Country Details ()
+  * E.g. as in https://angular.io/guide/router-tutorial-toh#add-heroes-functionality (where it's new link)
+  * Otherwise as additional functionality in existing component, via ngIf
+* Add new Menu Item -> Show Weather with Input field (Placehodlder to search address) and button (show weather)
+
+### 17/10/2022
+TO DO: 
+* Improve country-details page (Material Design)
+* Add new Menu Item -> Show Weather with Input field (Placehodlder to search address) and button (show weather)

@@ -1,0 +1,23 @@
+<mat-card class="weather">
+  <mat-form-field appearance="fill">
+    <mat-label>Input your location</mat-label>
+    <input matInput placeholder="Copenhagen" [formControl]="text" required />
+    <mat-error *ngIf="text.invalid">{{ getErrorMessage() }}</mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <mat-hint>DD/MM/YYYY</mat-hint>
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+  <button (click) = "showWeather();" mat-raised-button color="primary">Show Weather</button>
+</mat-card>
+<mat-card *ngIf="weatherData != null">
+<img src="{{weatherData.current.condition.icon}}" alt="">
+  <p class = "countryinfo">Current Weather: {{weatherData.current.condition.text}}</p>
+  <p class = "countryinfo">Current Temperature: {{weatherData.current.temp_c}}°</p>
+
+
+
+</mat-card>
