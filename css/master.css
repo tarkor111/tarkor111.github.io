@@ -574,3 +574,7 @@ bdo {
 html {
   height: 1000px;
 }
+
+.powered-by-artstation {
+    display:none;
+}
