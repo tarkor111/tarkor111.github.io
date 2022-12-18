@@ -575,6 +575,11 @@ html {
   height: 1000px;
 }
 
-.powered-by-artstation {
-    display:none;
+
+
+.projectimg {
+    width:40%;
+    height:auto;
+    margin:1%;
+    border-radius: 2%;
 }
