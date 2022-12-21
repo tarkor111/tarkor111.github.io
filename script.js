@@ -93,10 +93,16 @@ function scrollFunction() {
     overlayElement.style.backgroundColor = "rgba(40,40,40,0.7)";
     console.log(isInViewport(overlayElement));
     console.log(overlayElement);
+  }
+
+  let bgelements = document.getElementsByClassName("bignav");
+  for (let bgelements of bgelements){
+    bgelements.style.backgroundColor = "rgba(40,40,40,0.7)";
+  }
 
 
 
-}
+
   //.style.backgroundColor = "rgba('40,40,40,0.7')";
 }
 //  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
