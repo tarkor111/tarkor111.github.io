@@ -610,6 +610,9 @@ html {
     .ekstra a{
         color:black !important
     }
+    .col li {
+        color:black;
+        }
 }
 
 .iconholder {
@@ -623,4 +626,8 @@ html {
 
 #myDiv {
     display:none;
+}
+
+.row li {
+color:white;
 }

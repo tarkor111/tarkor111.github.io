@@ -95,10 +95,7 @@ function scrollFunction() {
     console.log(overlayElement);
   }
 
-  let bgelements = document.getElementsByClassName("bignav");
-  for (let bgelements of bgelements){
-    bgelements.style.backgroundColor = "rgba(40,40,40,0.7)";
-  }
+
 
 
 
