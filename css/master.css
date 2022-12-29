@@ -161,7 +161,7 @@ h3 {
 
 @media only screen and (min-width: 500px) {
   .bg {
-    background-image: url('../wallpaper/cool_wallpaper_1.webp');
+    background-image: url('../wallpaper/neonwall.webp');
     background-attachment: fixed;
     background-size: 100% 100vh;
 
@@ -515,7 +515,7 @@ hr {
 }
 @media only screen and (max-width: 500px) {
   .bg {
-    background-image: url('../wallpaper/wallpaper-mobile.png') !important
+    background-image: url('../wallpaper/wallpaper-mobile.webp') !important
 
   }
   .bg {
@@ -543,7 +543,7 @@ bdo {
 
 
 .bignav {
-   background-image: url('../wallpaper/navbar-wallpaper.png');
+   background-image: url('../wallpaper/navbar-wallpaper.webp');
    background-size: 100%;
    background-position:bottom;
    overflow:hidden;
@@ -613,6 +613,9 @@ html {
     .col li {
         color:black;
         }
+    footer {
+        color:black;
+    }
 }
 
 .iconholder {
@@ -630,4 +633,8 @@ html {
 
 .row li {
 color:white;
+}
+
+footer {
+    color:white;
 }
