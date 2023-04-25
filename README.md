@@ -1,7 +1,7 @@
 # tarkor111.github.io
 ## My portolio website - Taras Korabel
 
-[Link to my (old) website](https://tarask.000webhostapp.com/index.html)
+[Link to my (old) website](http://tarkor-electron-backup.eu5.org/)
 
 
 
