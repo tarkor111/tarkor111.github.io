@@ -29,7 +29,7 @@
 
 <div class="container-fluid" id="map">
 <script type="text/javascript">
-  var map = L.map('map').setView([55.66614001280273, 12.520947589485539], 13);
+  var map = L.map('map').setView([58.66614001280273, 16.520947589485539], 13);
   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 30,
@@ -38,7 +38,7 @@
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoidGFya29yIiwiYSI6ImNreXI3MjM3NTA5dXcydXFhOWwxc2M4MmIifQ.-C600fa4zboTbwou3oY74g'
 }).addTo(map);
-var marker = L.marker([55.66587116697225, 12.521155794794865]).addTo(map);
+var marker = L.marker([58.66587116697225, 16.521155794794865]).addTo(map);
 marker.bindPopup("<b>Hey everyone</b><br>I'm a popup!.").openPopup();
 </script>
 </div>
