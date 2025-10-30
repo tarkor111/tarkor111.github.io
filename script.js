@@ -91,6 +91,7 @@ function scrollFunction() {
   let overlayElements = document.getElementsByClassName("overlay");
   for (let overlayElement of overlayElements){
     overlayElement.style.backgroundColor = "rgba(40,40,40,0.7)";
+    overlayElement.style.filter = "blur(0px)";
     console.log(isInViewport(overlayElement));
     console.log(overlayElement);
   }
