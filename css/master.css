@@ -505,10 +505,15 @@ hr {
 .navlink:hover {
     transform:rotate(90deg);
 }
+
+.overlay {
+filter: blur(50px);	
+}
 @media only screen and (max-width: 500px) {
 	
 	.overlay {
 	background-color:rgba(0,0,0,0) !important
+	
 	}
 	
 
